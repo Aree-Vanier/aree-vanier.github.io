@@ -8,7 +8,7 @@ body{
 
 a{
   color:white;
-  text-decoration:none;
+  text-decoration:underline;
   transition:color 0.5s;
 }
 
@@ -17,12 +17,12 @@ a:hover{
 }
 
 header{
-  width:87%;
+  width:92%;
   background-color:#212121;
   color:white;
   font-size:2.5em;
   padding:15px;
-  padding-left:7%;
+  padding-left:3%;
   margin:0.3em 2%;
   box-shadow:5px 5px #d50000;
   position:sticky;
@@ -61,6 +61,7 @@ nav a{
   transition:all 0.5s ease-in-out;
   margin:0px;
   box-shadow: 5px 5px #00000000;
+  text-decoration: none;
 
   color:white;
   display:block;
