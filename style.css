@@ -65,15 +65,29 @@ nav a{
   display:block;
 }
 
-
-nav a.logo{
-
+nav .logo{
+  font-size:150%;
+  padding:7px;
 }
 
 nav a:hover{
   color:white;
   background-color:#d50000;
   box-shadow:4px 4px #212121;
+}
+
+nav .dropdown{
+    display: none;
+    position: absolute;
+    background-color: #d50000;
+    padding: 3px;
+    margin-left: -45px;
+    /* border: 2px solid #212131; */
+    margin-top: -5px;
+}
+
+nav a:hover+.dropdown{
+  display:block;
 }
 
 .content{
