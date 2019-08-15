@@ -39,7 +39,7 @@ nav{
   position:--webkit-sticky;
   position:sticky;
   top:0px;
-  margin-bottom:1.5em;
+  margin-bottom:0.5em;
 }
 
 nav ul{
@@ -100,9 +100,19 @@ nav a:hover .dropdown{
   padding:5px 20px;
   width:87%;
   margin:auto;
-  margin-bottom:2em;
+  margin-bottom:1em;
   background-color: #212121;
   box-shadow:5px 5px #d50000;
+}
+
+.anchor{
+  color:#00000000;
+  user-select: none;
+  display:hidden;
+}
+
+.anchor:target{
+  padding-top:2.5em;
 }
 
 p{
@@ -113,6 +123,7 @@ h1{
   margin-bottom:0.25em;
   font-size:1.75em;
 }
+
 h2{
   margin:0px;
   margin-top:1.25em;
