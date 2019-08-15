@@ -50,14 +50,15 @@ nav ul{
 }
 
 nav li{
-  display:block;
+  display:flex;
   float:left;
+  flex-direction: row;
 }
 
 nav a{
   padding:10px;
   cursor:pointer;
-  transition:all 0.5s ease-in;
+  transition:all 0.5s ease-in-out;
   margin:0px;
   box-shadow: 5px 5px #00000000;
 
@@ -77,17 +78,22 @@ nav a:hover{
 }
 
 nav .dropdown{
-    display: none;
-    position: absolute;
-    background-color: #d50000;
-    padding: 3px;
-    margin-left: -45px;
-    /* border: 2px solid #212131; */
-    margin-top: -5px;
+    /* background-color: #d50000; */
+    max-width:0px;
+    /* padding:10px 0px; */
+    overflow:hidden;
+    display:inline-block;
+    /* transition: all 0.5s linear; */
+    white-space: nowrap;
+    transition:all 1.75s cubic-bezier(0.46, 0.03, 0.52, 0.96);
+    font-size:70%
 }
 
-nav a:hover+.dropdown{
-  display:block;
+nav a:hover .dropdown{
+  max-width:200px;
+  padding-right:0.5em;
+  /* padding-left:2px; */
+  user-select: text;
 }
 
 .content{
@@ -160,5 +166,6 @@ h2>.desc{
 
 .stripe td.git{
   float:right;
-  padding-left:10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
