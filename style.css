@@ -18,7 +18,7 @@ a:hover{
 
 header{
   width:87%;
-  background-color:#212121; 
+  background-color:#212121;
   color:white;
   font-size:2.5em;
   padding:15px;
@@ -60,9 +60,14 @@ nav a{
   transition:all 0.5s ease-in;
   margin:0px;
   box-shadow: 5px 5px #00000000;
-  
+
   color:white;
   display:block;
+}
+
+
+nav a.logo{
+
 }
 
 nav a:hover{
@@ -96,9 +101,50 @@ h2{
   margin-bottom:0.25em;
 }
 h2>.desc{
-  font-size:75%;
+  font-size:65%;
   font-weight:lighter;
   margin-left:1em;
   vertical-align:center;
   height:100%
+}
+
+.stripe{
+  border-spacing: 0px;
+}
+
+.stripe td{
+  padding:5px 1px;
+}
+
+.stripe tr:nth-child(even){
+
+}
+
+.stripe tr:nth-child(odd){
+  background-color:#323232;
+}
+
+.stripe td.name{
+  font-weight: bold;
+  width:170px;
+}
+
+.stripe td.desc{
+
+}
+
+.stripe td.lang{
+  float:right;
+}
+
+.stripe td.lang::after{
+  content:"";
+  width:2px;
+  height:inherit;
+  background-color:white;
+}
+
+.stripe td.git{
+  float:right;
+  padding-left:10px;
 }

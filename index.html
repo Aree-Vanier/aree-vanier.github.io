@@ -1,21 +1,22 @@
 <head>
-  	<link rel="stylesheet" type="text/css" href="style.css">	
+  	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
   <header>Greg's Site
     <table style="float:right;font-size:40%">
-      <tr><td>Github:</td><td><a href="https://github.com/aree-vanier">aree-vanier</a></td></td>
-        <tr><td>Email:</td><td>public@gregk.ca</td></tr>
+      <tr><td>Github:</td><td><a href="https://github.com/aree-vanier">Aree-Vanier</a></td></td>
+      <tr><td>Email:</td><td>public@gregk.ca</td></tr>
     </table>
-  </header>  
-  
+  </header>
+
   <nav>
     <ul>
-      <li><a>About</a></li>
-      <li><a>Projects</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#FIRST">FIRST</a></li>
     </ul>
   </nav>
-  
+
   <div class="content">
     <h1 id="about">About Me</h1>
     <p>
@@ -26,20 +27,41 @@
   <div class="content">
     <h1 id="projects">My Projects</h1>
     <p>
-      I have worked on a variety of softare projects, many of which are open-source on my github
+      I have worked on a variety of softare projects, many of which are open-source on my github.<br/>
+      This is a list of the more interesting ones I have worked on.
     </p>
     <h2>Active Projects:<span class="desc">These are the projects that I am currently working on</span></h2>
-    <table style="width:100%">
-      <tr><td>A task-management website</td><td style="text-align:right">Php, HTML, JS</td><td style="text-align:right"><a href="https://">Git</a></td></tr>
+    <table style="width:100%" class="stripe">
+      <tr>
+        <td class="name">Task Site</td>
+        <td class="desc">A task-management website, designed for FIRST robotics use</td>
+        <td class="git" align="RIGHT"><a href="https://github.com/Aree-Vanier/TaskSite">Git</a></td>
+        <td class="lang">Php, HTML, JS</td>
+      </tr>
     </table>
-    <h2>Tabled Projects:<span class="desc">These are completed projects that may be improved in the future</span></h2>
-    <table style="width:100%">
-      <tr><td>Custom graphics/game engine</td><td style="text-align:right">Java</td><td style="text-align:right"><a href="https://">Git</a></td></tr>
+    <h2>Tabled Projects:<span class="desc">These are completed projects that may see future improvements</span></h2>
+    <table style="width:100%" class="stripe">
+      <tr>
+        <td class="name">Graphics Engine</td>
+        <td class="desc">A custom graphics/game engine built on swing</td>
+        <td class="git"><a href="https://github.com/Aree-Vanier/Culminating">Git</a></td>
+        <td class="lang">Java</td>
+      </tr>
     </table>
-    <h2>Shelved Projects:<span class="desc">These are projects that are stable, but unlikely to see completion</span></h2>
-    <table style="width:100%">
-      <tr><td>Profile Manager for Kerbal Space Program</td><td style="text-align:right">NodeJS, HTML</td><td style="text-align:right"><a href="https://">Git</a></td></tr>
-      <tr><td>Private voting bot for Discord</td><td style="text-align:right">NodeJS</td><td style="text-align:right"><a href="https://">Git</a></td></tr>
+    <h2>Shelved Projects:<span class="desc">These are projects that are stable, but unlikely to see future changes/compleition</span></h2>
+    <table style="width:100%" class="stripe">
+      <tr>
+        <td class="name">KSP Profile Manager</td>
+        <td class="desc">A mod switcher for Kerbal Space Program</td>
+        <td class="git"><a href="https://github.com/Aree-Vanier/KSP-Profile-Manager">Git</a></td>
+        <td class="lang">NodeJS, HTML</td>
+      </tr>
+      <tr>
+        <td class="name">Private Voting Bot</td>
+        <td class="desc">A discord bot that allows users to vote in polls discretely</td>
+        <td class="git"><a href="https://github.com/Aree-Vanier/Private-Voting-Bot">Git</a></td>
+        <td class="lang">NodeJS</td>
+      </tr>
     </table>
   </div>
 
