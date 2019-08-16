@@ -166,7 +166,7 @@ h2>.desc{
 }
 
 .stripe td.lang{
-  float:right;
+  text-align: right;
 }
 
 .stripe td.lang::after{
@@ -177,7 +177,8 @@ h2>.desc{
 }
 
 .stripe td.git{
-  float:right;
   padding-left: 10px;
   padding-right: 10px;
+  width:21px;
+  text-align: right;
 }
