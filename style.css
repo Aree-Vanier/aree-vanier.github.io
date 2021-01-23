@@ -165,11 +165,13 @@ h2>.desc{
 
 }
 
-.stripe td.lang{
+.stripe td.lang,
+.stripe td.url{
   text-align: right;
 }
 
-.stripe td.lang::after{
+.stripe td.lang::after,
+.stripe td.url::after{
   content:"";
   width:2px;
   height:inherit;
