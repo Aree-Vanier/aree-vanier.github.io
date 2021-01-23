@@ -72,7 +72,8 @@ nav .logo{
   padding:7px;
 }
 
-nav a:hover{
+nav a:hover, 
+nav a:focus{
   color:white;
   background-color:#d50000;
   box-shadow:4px 4px #212121;
@@ -90,7 +91,8 @@ nav .dropdown{
     font-size:70%
 }
 
-nav a:hover .dropdown{
+nav a:hover .dropdown,
+nav a:focus .dropdown{
   max-width:200px;
   padding-right:0.5em;
   /* padding-left:2px; */
