@@ -1,0 +1,41 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:https://lakeeffectrobotics.ca/
+X-WR-CALNAME:Lake Effect Robotics
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:2023-08-Open-House
+DTSTAMP;TZID=/America/Toronto:20231002T145555
+SUMMARY:Open House
+DESCRIPTION:Open house at the Kingston Robotics Lab
+LOCATION:Kingston Robotics Lab
+DTSTART;TZID=/America/Toronto:20231003T180000
+DTEND;TZID=/America/Toronto:20231003T200000
+END:VEVENT
+BEGIN:VEVENT
+UID:2023onsc
+DTSTAMP;TZID=/America/Toronto:20231002T145555
+SUMMARY:STEMly Cup
+DESCRIPTION:WeΓÇÖll be attending the STEMly Cup [Overtime Sunday] off-season competition Sunday, November 5<sup>th</sup> in Hamilton.
+LOCATION:Hamilton
+DTSTART;TZID=/America/Toronto;VALUE=DATE:20231105
+END:VEVENT
+BEGIN:VEVENT
+UID:2024-Kickoff
+DTSTAMP;TZID=/America/Toronto:20231002T145555
+SUMMARY:Kickoff
+DESCRIPTION:Watch the kickoff broadcast for the 2024 game
+LOCATION:Kingston Robotics Lab
+DTSTART;TZID=/America/Toronto:20240106T100000
+DTEND;TZID=/America/Toronto:20240106T170000
+END:VEVENT
+BEGIN:VEVENT
+UID:2024onosh
+DTSTAMP;TZID=/America/Toronto:20231002T145555
+SUMMARY:Durham College
+DESCRIPTION:The team will be competing at the 2024 Durham College District Event in Hamilton
+LOCATION:Durham College, Hamilton
+DTSTART;TZID=/America/Toronto;VALUE=DATE:20240315
+DTEND;TZID=/America/Toronto;VALUE=DATE:20240317
+END:VEVENT
+END:VCALENDAR
